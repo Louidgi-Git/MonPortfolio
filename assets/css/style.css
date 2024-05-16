@@ -538,3 +538,28 @@ h6,
   width: 100%;
   margin: 5px;
 }
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #7a6c5d;
+}
+.btn {
+  padding: 5px 10px;
+  background-color: lightcoral;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
